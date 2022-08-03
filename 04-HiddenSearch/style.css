@@ -27,7 +27,7 @@ body {
     height: 50px;
 }
 
-.search input {
+.search .input {
     background-color: #fff;
     border: 0;
     font-size: 18px;
@@ -52,4 +52,12 @@ body {
 
 .btn:focus, .input:focus{
     outline: none;
+}
+
+.search.active .input{
+    width: 200px;
+}
+
+.search.active .btn{
+    transform: translateX(198px);
 }
